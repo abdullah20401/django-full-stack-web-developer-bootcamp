@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>users</title>
+    <link rel="stylesheet" href="{% static "css/mystyle.css" %}" />
+</head>
+
+<body>
+    <h1>Here are your users for AppTwo:</h1>
+    {% if users %}
+    <ol>
+        {% for person in users %}
+        <li>User Info</li>
+        <ul>
+            <li>First Name: <span class="first_name">{{ person.first_name }}</span></li>
+            <li>Last Name: <span class="last_name">{{ person.last_name }}</span></li>
+            <li>Email: <span class="email">{{ person.email }}</span></li>
+        </ul>
+        {% endfor %}
+    </ol>
+
+    {% endif %}
+</body>
+
+</html>

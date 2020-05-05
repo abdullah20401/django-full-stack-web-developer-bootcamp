@@ -1,0 +1,36 @@
+body{
+  font-family: 'Indie Flower', cursive;
+  background-color: #011627;
+  color: #FDFFFC;
+  text-align: center;
+  border: 60px solid #2EC4B6;
+  border-top: 0px;
+  margin: 0px;
+}
+
+p{
+  font-family: 'Source Code Pro', monospace;
+  padding-top: 5%;
+  padding-right: 20%;
+  padding-left: 20%;
+  font-size: 1.2em;
+}
+
+
+
+form{
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+#Submit{
+  font-family: 'Concert One', cursive;
+  background-color: #FF9F1C;
+  height: 80px;
+  width: 150px;
+  margin: 4px;
+  margin-top: 12px;
+  font-size: 1em;
+  border-radius: 30px
+}

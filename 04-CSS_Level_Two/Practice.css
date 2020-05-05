@@ -1,0 +1,36 @@
+h1{
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
+
+.art{
+margin: auto;
+}
+
+td{
+  height: 600px;
+  width: 300px;
+  border: 6px solid white;
+}
+
+#blue{
+  background-color: #257C89;
+}
+
+#green{
+  background-color: #47CCA4;
+}
+
+#orange{
+  background-color: #FFAA23;
+}
+
+#yellow{
+  background-color: #FFE66D;
+}
+
+#red{
+  background-color: #FF6B6B;
+}
