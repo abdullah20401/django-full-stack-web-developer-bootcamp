@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title></title>
-</head>
-<body>
-    <h1>WELCOME TO INDEX</h1>
-    
-</body>
-</html>
+{% extends 'basic_app/base.html' %}
+    {% load my_extras %}
+    {% block body_block %}
+        <h1>WELCOME TO INDEX</h1>
+        {% comment %} <h1>This is index.html showing!</h1> {% endcomment %}
+        <h1>{{ text|underscore|title }}</h1>
+        <h1>{{ number|add:"99" }}</h1>
+    {% endblock body_block %}
